@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+i{
+  cursor: pointer;
+}
+
+img{
+  cursor: pointer;
+}
+
+.accordion-button::after {
+  filter: invert(1);
+}
