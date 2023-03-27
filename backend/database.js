@@ -3,7 +3,7 @@
 const mongoose = require("mongoose");
 
 // 1) making connection string of our database :-
-const mongoURI = "mongodb://localhost:27017/bubbleNotes?readPreference=primary&appname=MongoDB%20Compass&ssl=false";
+const mongoURI = "mongodb+srv://dhruvbhatnagar4:dstar@bubble-notes.xvausck.mongodb.net/?retryWrites=true&w=majority";
 
 // 2) function to connect to database :-
 const connectToMongo = async () => {

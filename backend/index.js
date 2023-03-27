@@ -1,11 +1,12 @@
 // here we will make express erver and impot database
 
 // 1) importing from database.js here :-
+
 const connectToMongo = require("./database.js");
 connectToMongo();
 
 // 2) importing cors here :-
-var cors = require('cors');
+const cors = require('cors');
 
 // 3) making express server here :-
 
